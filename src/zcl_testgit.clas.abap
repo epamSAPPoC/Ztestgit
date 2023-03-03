@@ -4,6 +4,7 @@ CLASS zcl_testgit DEFINITION
   CREATE PUBLIC .
 
   PUBLIC SECTION.
+   methods: test1.
   PROTECTED SECTION.
   PRIVATE SECTION.
 ENDCLASS.
@@ -11,4 +12,6 @@ ENDCLASS.
 
 
 CLASS zcl_testgit IMPLEMENTATION.
+method test1.
+endmethod.
 ENDCLASS.
